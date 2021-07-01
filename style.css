@@ -1,0 +1,237 @@
+/*código universal*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+main {
+    margin: 0 60px;
+}
+
+label {
+    color: white;
+}
+
+header {
+    background-color: rgb(8, 8, 8);
+    padding: 20px;
+    position: relative;
+}
+
+h3, h4, h5, h6, p {
+    color: rgba(255, 255, 255, 0.924);
+    font-family: "roboto", sans-serif;
+}
+ 
+th, h2, h1 {
+    color: rgba(250, 98, 169, 0.945);
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+/*CSS cadastro*/
+.logo-cadastro {
+    width: 800px;
+    margin-left: 95px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+.elementos-cadastro {
+    width: 600px;
+    position: relative;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.criar-conta {
+    width: 600px;
+    position: relative;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.bg-cadastro {
+    background-image: url(html/imagens/imagem-cadastro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#texto-criar-conta {
+    position: relative;
+    align-items: center;
+    margin-left: 310px;
+    color: white;
+}
+
+#back-cadastro {
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 800px;
+    margin:0 auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250;
+}
+
+.footer {
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#rodape > .footer {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#copyright {
+    text-align: center;
+    color: #fff;
+    margin: 5px 0;
+}
+
+#simbolo {
+    width: 150px;
+    margin-left: -200px;
+}
+
+
+/*CSS login */
+#letras {
+    width: 150px;
+    margin-right: 500px;
+}
+
+.logo-home {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+#conta {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+}
+
+.imagem-login {
+    background-image: url(html/imagens/imagem-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.inscreva-se-login {
+    text-align:center;  
+}
+
+#back-login {
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 800px;
+    margin:0 auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250;
+}
+
+#footer-login {   
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.email-login {
+    width: 600px;
+    position: relative;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+/*perfil */
+#back-perfil {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 800px;
+    margin:0 auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 250;
+}
+
+.foto-perfil {
+    background-image: url(html/imagens/foto-perfil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.elementos-perfil  {
+    width: 600px;
+    position: relative;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+/*CSS Sobre*/
+.back-sobre {
+    background-image: url(html/imagens/imagem-sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#back-sobre {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 800px;
+    margin:0 auto;   
+}
+
+.texto-sobre {
+    text-align: center;
+}
+
+
+/*CSS Ajuda*/
+.mensagem-ajuda {
+    width: 600px;
+    position: relative;
+    align-items: center;
+    margin-left: 80px;
+}
+
+
+/*CSS controle*/
+.botao-menu{
+    margin-right: 96px;
+}
+

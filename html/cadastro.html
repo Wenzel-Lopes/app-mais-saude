@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="bg-cadastro">
+
+  <header>
+    <img src="/html/icones-edicao-saude/simbolo-saude.png" alt="" width="30" height="24"
+      class="d-inline-block align-text-top">
+    <a href="index.html">
+      <button type="button" class="btn btn-outline-light">Voltar</button>
+    </a>
+  </header>
+
+  <main>
+    <!--Quadro transparente da tela-->
+    <div id="back-cadastro">
+      <!--titlo cadastro-->
+      <div class="elementos-cadastro">
+        <!--Logo cadastro-->
+        <div class="logo-cadastro">
+          <img id="simbolo" src="icones-edicao-saude/simbolo-saude.png" alt="Logo +Saúde" />
+          <img id="letra" src="icones-edicao-saude/letra-saude-menor.png" alt="Logo +Saúde" />
+        </div>
+
+        <div id="texto-criar-conta">
+          <h1>Criar conta </h1>
+        </div>
+        <br>
+
+        <!--formulário de cadastro-->
+        <form class="criar-conta">
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Senha</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0"></legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Masculino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Feminino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Outros
+                </label>
+              </div>
+              <div class="form-check disabled">
+                </label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="row mb-3">
+            <div class="col-sm-10 offset-sm-2">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  Eu li e concordo com os termos de uso.
+                  <br>
+                  <br>
+                  <a href="dashboard.html">
+                    <button type="button" class="btn btn-info">Criar</button>
+                  </a>
+                  <br>
+                  <br>
+                  <br>
+                </label>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="copyright"> &copy; Copyright +Saúde - 2021</p>
+  </footer>
+
+ 
+  <!-- JavaScript  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

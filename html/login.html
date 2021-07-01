@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Health Track</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="imagem-login">
+  <header>
+    <img src="/html/icones-edicao-saude/simbolo-saude.png" alt="" width="30" height="24"
+      class="d-inline-block align-text-top">
+    <a href="index.html">
+      <button type="button" class="btn btn-outline-light">Voltar</button>
+    </a>
+  </header>
+  <main>
+    <div id="back-login">
+
+      <div class="email-login">
+        <div class="logo-home">
+          <!--imagem logo do site-->
+          <img id="simbolo" src="icones-edicao-saude/simbolo-saude.png" alt="Logo +Saúde" />
+          <!--letras + saúde-->
+          <img id="letra" src="icones-edicao-saude/letra-saude-menor.png" alt="Logo +Saúde" />
+        </div>
+
+        <!--formulário-->
+        <form class="container">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text"> Nunca compartilhamos suas informações pessoais.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Lembrar identificação de usuário</label>
+          </div>
+          <a href="dashboard.html">
+            <button type="button" class="btn btn-info">Entrar</button>
+          </a>
+        </form>
+
+        <!--BOTÃO INSCREVA-SE-->
+        <br>
+        <br>
+        <br>
+        
+        <div class="inscreva-se-login">
+          <p id="nao-conta"> ESQUECEU A SENHA?
+            <button id="botao-link" type="button" class="btn btn-link"> REDEFENIR SENHA</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <p id="copyright"> &copy; Copyright +Saúde - 2021</p>
+
+    <!-- JavaScript  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
