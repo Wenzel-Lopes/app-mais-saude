@@ -10,19 +10,19 @@
 
 ## Página index
 
-![screenshot](pagina-principal.png?raw=true "screenshot")
+![screenshot](pagina-principal.PNG?raw=true "screenshot")
 
 
 
 ## Página Dashboard
 
-![screenshot](pagina-dashboard.png?raw=true "screenshot")
+![screenshot](pagina-dashboard.PNG?raw=true "screenshot")
 
 
 
 ##  Página Controle
 
-![screenshot](pagina-controle.png?raw=true "screenshot")
+![screenshot](pagina-controle.PNG?raw=true "screenshot")
 
 
 
