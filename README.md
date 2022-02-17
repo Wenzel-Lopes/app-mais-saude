@@ -1,6 +1,6 @@
 ## Sobre o projeto
 
-​	O tema do projeto da faculdade é "Health Track", devo criar um APP fitness focado em ajudar no gerenciamento de uma vida mais saudável com treinos práticos e ferramentas úteis. 
+​	O tema do projeto da faculdade é "Health Track", com o objetico de criar um APP fitness focado em ajudar no gerenciamento de uma vida mais saudável com treinos práticos e ferramentas úteis. 
 
  
 
